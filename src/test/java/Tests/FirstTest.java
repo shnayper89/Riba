@@ -17,6 +17,7 @@ public class FirstTest extends BeforeClass{
 MainPage search = new MainPage();
 SearchPage searchPage = new SearchPage();
 ScrollPage pageDown = new ScrollPage();
+
 @Test
 
     public void test() throws InterruptedException {
@@ -24,5 +25,6 @@ ScrollPage pageDown = new ScrollPage();
     search.clickOnSearchButton();
     pageDown.scroll();
     searchPage.assertSearch(anyData("checkWord"));
+
 }
 }

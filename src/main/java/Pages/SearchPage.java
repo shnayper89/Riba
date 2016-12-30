@@ -28,6 +28,7 @@ public class SearchPage extends MainPage{
             System.out.println("yes" + "          " + (i + 1));
 
         }
+        System.out.println("The End");
         Thread.sleep(10000);
     }
 }
