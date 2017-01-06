@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * Created by spirit on 04.12.16.
+ * Created by spirit on 1/6/17.
  */
 public class PropertiesReader {
     public static Properties readProperties(String name) {
